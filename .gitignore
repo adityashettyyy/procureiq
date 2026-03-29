@@ -1,35 +1,59 @@
-# Environment
-.env
-.env.local
-.env.production
+# 🔐 Environment variables
 
-# Python
-__pycache__/
+.env
+.env.*
+!.env.example
+
+# 🐍 Python
+
+**pycache**/
 *.pyc
 *.pyo
+*.pyd
+*.sqlite3
+*.db
 venv/
 .venv/
 *.egg-info/
 dist/
 build/
 .pytest_cache/
-*.db
+.coverage
+htmlcov/
 
-# Node
+# 📦 Node (Frontend)
+
 node_modules/
 .next/
 out/
 npm-debug.log*
 
-# OS
-.DS_Store
-Thumbs.db
+# 🗄️ Database (explicit backend)
 
-# IDE
+backend/*.db
+
+# 🧠 IDE / Editor
+
 .vscode/
 .idea/
 *.swp
 
-# Logs
+# 🖥️ OS files
+
+.DS_Store
+Thumbs.db
+
+# 📄 Logs
+
 *.log
 logs/
+
+# 🧹 Temporary files
+
+*.tmp
+*.temp
+
+# ⚙️ Misc
+
+*.pid
+*.seed
