@@ -103,19 +103,6 @@ User → Next.js Frontend
 
 ---
 
-## 🚀 Deployment (Railway)
-
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for step-by-step Railway deploy.
-
-TL;DR:
-
-```bash
-railway login
-railway init
-railway up
-```
-
----
 
 ## 📋 Demo Checklist
 
@@ -131,21 +118,7 @@ Run this before every demo:
 
 ---
 
-## 🗺️ Roadmap
 
-See [docs/ROADMAP.md](docs/ROADMAP.md) for full post-hackathon plan.
-
----
-
-## 🤝 Built With
-
-- [TinyFish](https://tinyfish.io) — Autonomous web agent infrastructure
-- [FastAPI](https://fastapi.tiangolo.com) — Python backend
-- [Next.js 14](https://nextjs.org) — React frontend
-- [shadcn/ui](https://ui.shadcn.com) — Component library
-- [OpenAI GPT-4o mini](https://openai.com) — Structured data extraction
-
----
 
 ## 📄 License
 
