@@ -87,23 +87,6 @@ User → Next.js Frontend
        Frontend Results Page
 ```
 
----
-
-## 🔑 Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-
-| `TINYFISH_API_KEY` | Your TinyFish API key | ✅ |
-| `OPENAI_API_KEY` | OpenAI key for extraction + RFQ | ✅ |
-| `DATABASE_URL` | SQLite path (default: `./procureiq.db`) | ✅ |
-| `DEMO_MODE` | `true` = use cached results, skip live agents | Optional |
-| `CORS_ORIGINS` | Allowed frontend origins | ✅ |
-| `SECRET_KEY` | App secret for future auth | ✅ |
-
----
-
-
 ## 📋 Demo Checklist
 
 Run this before every demo:
